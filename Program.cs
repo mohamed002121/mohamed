@@ -4,40 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace project22
+namespace project_11
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int Begning, End, n, i, sum;
 
 
 
-            Console.WriteLine("Please enter The Begning : ");
 
-            Begning = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("please enter the End: ");
 
-            End = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("The Perfect numbers within the given range : ");
 
-            for (n = Begning; n <= End; n++)
+
+            Console.WriteLine("enter number 1 ");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter number 2");
+            int num2 = int.Parse(Console.ReadLine());
+            int sum = 0;
+            for (int i = num1; i <= num2; i++)
             {
-                i = 1;
-                sum = 0;
-                while (i < n)
+                for (int j = 1; j <= i; j++)
                 {
-                    if (n % i == 0)
-                        sum = sum + i;
-                    i++;
+                    if (i % j == 0)
+                        sum++;
                 }
-                if (sum == n)
-                    Console.WriteLine("{0} ", n);
+                if (sum == 2)
+                {
+                    Console.WriteLine(i);
+                    sum = 0;
+                }
+                else
+                {
+                    sum = 0;
+
+                }
+
             }
-            Console.WriteLine("  ");
+
+
+
+
+
+
         }
     }
 }
