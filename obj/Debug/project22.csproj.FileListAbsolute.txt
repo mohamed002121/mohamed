@@ -1,0 +1,8 @@
+C:\Users\Dream\source\repos\project22\project22\bin\Debug\project22.exe.config
+C:\Users\Dream\source\repos\project22\project22\bin\Debug\project22.exe
+C:\Users\Dream\source\repos\project22\project22\bin\Debug\project22.pdb
+C:\Users\Dream\source\repos\project22\project22\obj\Debug\project22.csproj.AssemblyReference.cache
+C:\Users\Dream\source\repos\project22\project22\obj\Debug\project22.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dream\source\repos\project22\project22\obj\Debug\project22.csproj.CoreCompileInputs.cache
+C:\Users\Dream\source\repos\project22\project22\obj\Debug\project22.exe
+C:\Users\Dream\source\repos\project22\project22\obj\Debug\project22.pdb
